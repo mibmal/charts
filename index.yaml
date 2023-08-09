@@ -477,6 +477,35 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v2.12.5
+    created: "2023-08-09T21:54:48.960316909Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: A Python based monitoring and tracking tool for Plex Media Server
+    digest: d8491772c6fdf3cc5e7b50119bc21e32d99758fbefa20ded43457ce0f1443097
+    home: https://github.com/mibmal/charts/tree/main/charts/tautulli
+    icon: https://github.com/Tautulli/Tautulli/blob/master/data/interfaces/default/images/logo.png?raw=true
+    keywords:
+    - tautulli
+    - plex
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: michael@maley.me
+      name: mibmal
+    name: tautulli
+    sources:
+    - https://github.com/Tautulli/Tautulli
+    - https://hub.docker.com/r/linuxserver/tautulli
+    urls:
+    - https://github.com/mibmal/charts/releases/download/tautulli-11.4.4/tautulli-11.4.4.tgz
+    version: 11.4.4
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
+    appVersion: v2.12.5
     created: "2023-08-09T21:13:17.853971408Z"
     dependencies:
     - name: common
@@ -718,4 +747,4 @@ entries:
     urls:
     - https://github.com/mibmal/charts/releases/download/youtubedl-material-4.4.2/youtubedl-material-4.4.2.tgz
     version: 4.4.2
-generated: "2023-08-09T21:13:17.853985608Z"
+generated: "2023-08-09T21:54:48.960356909Z"
