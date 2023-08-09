@@ -18,7 +18,7 @@ maintainers:
     email: michael@maley.me
 dependencies:
   - name: common
-    repository: https://charts.maley.me
+    repository: https://library-charts.k8s-at-home.com
     version: 4.5.2
 annotations:
   artifacthub.io/changes: |-
